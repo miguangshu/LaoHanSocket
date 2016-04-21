@@ -25,6 +25,7 @@ public class AppStart extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
+        //e
         final View view = View.inflate(this, R.layout.app_start, null);
         setContentView(view);
 
